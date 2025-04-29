@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matamoros H - Habitaciones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <span class="logo-text">Matamoros H</span>
+                </a>
+            </div>
+            
+            <ul class="navbar-nav">
+                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="habitaciones.html" class="nav-link active"><i class="fas fa-bed"></i> Habitaciones</a></li>
+                <li><a href="contacto.html" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+            
+            <button class="navbar-toggler" id="navbar-toggler">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal - Página de Habitaciones -->
+    <main class="rooms-main">
+        <section class="rooms-header">
+            <h1>Nuestras Habitaciones</h1>
+            <p>Descubre el confort y elegancia de nuestros espacios cuidadosamente diseñados</p>
+        </section>
+
+        <section class="rooms-container">
+            <!-- Habitación Estándar -->
+            <article class="room-card">
+                <div class="room-image">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Habitación Estándar">
+                    <div class="price-badge">$1,200 <small>/noche</small></div>
+                </div>
+                <div class="room-details">
+                    <h2>Habitación Estándar</h2>
+                    <p class="room-description">Cómoda habitación con cama queen size, TV pantalla plana y baño privado con amenities de lujo.</p>
+                    
+                    <div class="room-features">
+                        <h3>Características:</h3>
+                        <ul>
+                            <li><i class="fas fa-ruler-combined"></i> 25 m²</li>
+                            <li><i class="fas fa-bed"></i> 1 cama queen</li>
+                            <li><i class="fas fa-user"></i> Máx. 2 personas</li>
+                            <li><i class="fas fa-wifi"></i> WiFi gratis</li>
+                            <li><i class="fas fa-snowflake"></i> Aire acondicionado</li>
+                        </ul>
+                    </div>
+                    
+                    <button class="book-now-btn">Reservar Ahora</button>
+                </div>
+            </article>
+
+            <!-- Habitación Deluxe -->
+            <article class="room-card">
+                <div class="room-image">
+                    <img src="https://images.unsplash.com/photo-1566669437685-2c5a585aded5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Habitación Deluxe">
+                    <div class="price-badge">$2,400 <small>/noche</small></div>
+                </div>
+                <div class="room-details">
+                    <h2>Habitación Deluxe</h2>
+                    <p class="room-description">Amplio espacio con vistas privilegiadas, sala de estar integrada y baño de mármol con jacuzzi.</p>
+                    
+                    <div class="room-features">
+                        <h3>Características:</h3>
+                        <ul>
+                            <li><i class="fas fa-ruler-combined"></i> 40 m²</li>
+                            <li><i class="fas fa-bed"></i> 1 cama king</li>
+                            <li><i class="fas fa-user"></i> Máx. 2 personas</li>
+                            <li><i class="fas fa-hot-tub"></i> Jacuzzi</li>
+                            <li><i class="fas fa-umbrella-beach"></i> Vista al mar</li>
+                        </ul>
+                    </div>
+                    
+                    <button class="book-now-btn">Reservar Ahora</button>
+                </div>
+            </article>
+
+            <!-- Suite Ejecutiva -->
+            <article class="room-card">
+                <div class="room-image">
+                    <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Suite Ejecutiva">
+                    <div class="price-badge">$3,800 <small>/noche</small></div>
+                </div>
+                <div class="room-details">
+                    <h2>Suite Ejecutiva</h2>
+                    <p class="room-description">Lujo en 60m² con dormitorio independiente, sala de juntas, servicio de mayordomo y acceso al lounge ejecutivo.</p>
+                    
+                    <div class="room-features">
+                        <h3>Características:</h3>
+                        <ul>
+                            <li><i class="fas fa-ruler-combined"></i> 60 m²</li>
+                            <li><i class="fas fa-bed"></i> 1 cama king</li>
+                            <li><i class="fas fa-user"></i> Máx. 2 personas</li>
+                            <li><i class="fas fa-concierge-bell"></i> Servicio 24/7</li>
+                            <li><i class="fas fa-wine-glass-alt"></i> Minibar incluido</li>
+                        </ul>
+                    </div>
+                    
+                    <button class="book-now-btn">Reservar Ahora</button>
+                </div>
+            </article>
+
+            <!-- Habitación Familiar -->
+            <article class="room-card">
+                <div class="room-image">
+                    <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Habitación Familiar">
+                    <div class="price-badge">$2,900 <small>/noche</small></div>
+                </div>
+                <div class="room-details">
+                    <h2>Habitación Familiar</h2>
+                    <p class="room-description">Dos dormitorios conectados, cocineta, área de juegos infantiles y servicios especializados para familias.</p>
+                    
+                    <div class="room-features">
+                        <h3>Características:</h3>
+                        <ul>
+                            <li><i class="fas fa-ruler-combined"></i> 50 m²</li>
+                            <li><i class="fas fa-bed"></i> 2 camas queen</li>
+                            <li><i class="fas fa-user"></i> Máx. 4 personas</li>
+                            <li><i class="fas fa-utensils"></i> Cocina básica</li>
+                            <li><i class="fas fa-child"></i> Área infantil</li>
+                        </ul>
+                    </div>
+                    
+                    <button class="book-now-btn">Reservar Ahora</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Matamoros H</h3>
+                <p>Tu lugar de descanso perfecto</p>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/522322201308" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <a href="https://wa.me/528681234567" class="whatsapp-float" target="_blank">
+                <i class="fab fa-whatsapp whatsapp-icon"></i>
+            </a>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Matamoros</p>
+                <p><i class="fas fa-phone"></i> +52 868 123 4567</p>
+                <p><i class="fas fa-envelope"></i> info@matamorosh.com</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 Matamoros H. Todos los derechos reservados.</p>
+            <p><a href="#">Política de privacidad</a> | <a href="#">Términos de servicio</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

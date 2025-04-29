@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Matamoros H</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <span class="logo-text">Matamoros H</span>
+                </a>
+            </div>
+            
+            <ul class="navbar-nav">
+                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="habitaciones.html" class="nav-link"><i class="fas fa-bed"></i> Habitaciones</a></li>
+                <li><a href="contacto.html" class="nav-link active"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+            
+            <button class="navbar-toggler" id="navbar-toggler">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal - Página de Contacto -->
+    <main class="contact-main">
+        <section class="contact-header">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte. Completa el formulario o usa nuestros datos de contacto.</p>
+        </section>
+
+        <div class="contact-container">
+            <!-- Formulario de Contacto -->
+            <section class="contact-form">
+                <h2>Envíanos un mensaje</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Teléfono (opcional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="reservacion">Reservación</option>
+                            <option value="informacion">Información</option>
+                            <option value="eventos">Eventos</option>
+                            <option value="quejas">Sugerencias o Quejas</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </section>
+
+            <!-- Información de Contacto -->
+            <aside class="contact-info">
+                <h2>Información de contacto</h2>
+                
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Dirección</h3>
+                        <p>Av. Principal #123, Centro<br>Matamoros, Tamaulipas, México</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h3>Teléfonos</h3>
+                        <p>Reservaciones: <a href="tel:+528681234567">+52 868 123 4567</a></p>
+                        <p>Recepción: <a href="tel:+528681234568">+52 868 123 4568</a></p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Correo electrónico</h3>
+                        <p><a href="mailto:reservaciones@matamorosh.com">reservaciones@matamorosh.com</a></p>
+                        <p><a href="mailto:info@matamorosh.com">info@matamorosh.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Horario de atención</h3>
+                        <p>Lunes a Viernes: 8:00 AM - 10:00 PM</p>
+                        <p>Sábado y Domingo: 9:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="social-media">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Mapa -->
+        <section class="map-section">
+            <h2>Ubicación</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14390.017567692236!2d-97.508443!3d25.526944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDMxJzM3LjAiTiA5N8KwMzAnMzAuMyJX!5e0!3m2!1ses!2smx!4v1620000000000!5m2!1ses!2smx" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Matamoros H</h3>
+                <p>Tu lugar de descanso perfecto</p>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/522322201308" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Matamoros</p>
+                <p><i class="fas fa-phone"></i> +52 868 123 4567</p>
+                <p><i class="fas fa-envelope"></i> info@matamorosh.com</p>
+            </div>
+        </div>
+        
+        <a href="https://wa.me/528681234567" class="whatsapp-float" target="_blank">
+            <i class="fab fa-whatsapp whatsapp-icon"></i>
+        </a>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Matamoros H. Todos los derechos reservados.</p>
+            <p><a href="#">Política de privacidad</a> | <a href="#">Términos de servicio</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
